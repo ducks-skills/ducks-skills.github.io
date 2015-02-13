@@ -1,0 +1,207 @@
+@import url(http://fonts.googleapis.com/css?family=Grand+Hotel&subset=latin,latin-ext);
+
+/*corps de la page*/
+body
+{
+	background-image: url("images/low_contrast_linen.png");
+	background-attachment: fixed;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+#bloc_page
+{
+	
+	min-width: 950px;
+	max-width: 1200px;
+
+}
+/*header*/
+.header
+{
+	
+	
+	max-height : 400px;
+	max-width : 950 px;
+}
+h1
+{
+	font-family: Grand hotel;
+		color: grey;
+		font-weight: normal;
+		font-size: 50px;
+		text-align: center;
+		max-height : 60px;
+	max-width : 950 px;
+	
+}
+h3
+{
+	font-family: Grand hotel;
+		color: grey;
+		font-weight: normal;
+		font-size: 30px;
+		text-align: center;
+		font-style : italic;
+		max-height : 60px;
+		max-width : 950 px;
+		 
+}
+.logo
+{
+	 
+	float: left;
+	width: 200px;
+}
+/*menu*/
+#afterheader
+{
+	background-color:white;
+}
+nav
+{
+		box-shadow: 1px, 1px, 12px, #555;
+		background-color: #2B2A2E;
+		font-family: Verdana;
+		font-size: 18px;
+		margin-left: auto;
+		margin-right: auto;
+		text-transform: upercase;
+		text-align: center;
+		height: 40px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		
+		
+		
+}
+nav ul
+	{
+		list-style-type: none;
+	}
+	nav li 
+	{
+		display: inline-block;
+		margin-right: auto;
+		padding : 10 px;
+	}
+	nav a
+	{
+		font-family: verdana;
+		text-decoration: none;
+		color: #FEFEFE;
+		-moz-transition: all .5s; 
+    -webkit-transition: all .5s; 
+    -o-transition: all .5s; 
+    transition: all .5s;
+	}
+	
+	.men1:hover
+	{
+		background-color: #CC0000;
+		height: 30px;
+		-moz-transition: all .5s; 
+    -webkit-transition: all .5s; 
+    -o-transition: all .5s; 
+    transition: all .5s;
+	}
+	.men2:hover
+	{
+		background-color: #CC0033;
+		height: 35px;
+		-moz-transition: all .5s; 
+    -webkit-transition: all .5s; 
+    -o-transition: all .5s; 
+    transition: all .5s;
+	}
+	.men3:hover
+	{
+		background-color: #CC0066;
+		height: 40px;
+		-moz-transition: all .5s; 
+    -webkit-transition: all .5s; 
+    -o-transition: all .5s; 
+    transition: all .5s;
+	}
+	.men4:hover
+	{
+		background-color: #CC0099;
+		height: 45px;
+		-moz-transition: all .5s; 
+		-webkit-transition: all .5s; 
+		-o-transition: all .5s; 
+		transition: all .5s;
+	}
+	.t2
+	{
+		height:20px;
+		margin-top: 5px;
+	}
+	section
+	{
+		background: white;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+		display: inline-block;
+		
+	
+	
+	}
+	article
+	{
+	
+	font-family: Grand hotel;
+		text-decoration:none;
+		font-weight: normal;
+		font-size: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+		
+	}
+	td
+	{
+		width: 630px;
+	}
+	.imageart1
+	{
+		
+		margin-right: 25px;
+		width: 500px;
+		
+		
+		
+	}
+.paragraphesect1
+{
+	
+	font-family: Grand Hotel;
+}
+.p1
+{	
+	color:#007200;
+}
+.p2
+{
+	color:#EAAC00;
+}
+a
+{
+	text-transform: upercase;
+}
+	.copyright
+	{
+				font-family: verdana;
+				font-size: 12px;
+				color: white;
+				background-color: grey;
+				text-align: center;
+				margin-top: 5px;
+				height: 28px;
+				border-bottom-right-radius: 5px;
+				border-bottom-left-radius: 5px;
+	
+	}
