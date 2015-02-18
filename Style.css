@@ -15,6 +15,7 @@ body
 	min-width: 950px;
 	max-width: 1200px;
 
+
 }
 /*header*/
 .header
@@ -24,7 +25,11 @@ body
 	max-height : 400px;
 	max-width : 950 px;
 }
-h1
+header
+{
+	margin: auto;
+}
+h1, header tr
 {
 	font-family: Grand hotel;
 		color: grey;
@@ -32,7 +37,7 @@ h1
 		font-size: 50px;
 		text-align: center;
 		max-height : 60px;
-	max-width : 950 px;
+	max-width : 90%;
 	
 }
 h3
@@ -46,6 +51,11 @@ h3
 		max-height : 60px;
 		max-width : 950 px;
 		 
+}
+header a:visited
+{
+	color: grey;
+	text-decoration: none;
 }
 .logo
 {
@@ -148,33 +158,53 @@ nav ul
 		margin-bottom: auto;
 		display: inline-block;
 		
+		
 	
 	
 	}
 	article
 	{
 	
-	font-family: Grand hotel;
+		font-family: Grand hotel;
 		text-decoration:none;
 		font-weight: normal;
 		font-size: 20px;
 		margin-left: 20px;
 		margin-right: 20px;
 		
+		
 	}
-	td
+section	td
 	{
-		width: 630px;
+		max-width: 50%;
+		border-style: solid;
+		border-radius: 5px;
+		border-color: grey;
+		border-width: 1px;
+		padding: 10px;
+		
+		
 	}
-	.imageart1
+	section td:hover, 
+	{
+		background-color:#c0392b;
+		color: white;
+	}
+	.imageart1, .imageart2
 	{
 		
-		margin-right: 25px;
+		margin: auto;
 		width: 500px;
 		
 		
 		
 	}
+	.imageart1:hover, .imageart2:hover
+	{
+		background-color:#2c3e50; 
+	}
+	
+
 .paragraphesect1
 {
 	
@@ -191,6 +221,10 @@ nav ul
 a
 {
 	text-transform: upercase;
+}
+#afterheader 
+{
+	padding: 15px;
 }
 	.copyright
 	{
