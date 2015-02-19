@@ -3,7 +3,7 @@
 /*corps de la page*/
 body
 {
-	background-image: url("images/low_contrast_linen.png");
+	background-image: url("Images/low_contrast_linen.png");
 	background-attachment: fixed;
 	margin-right: 50px;
 	margin-left: 50px;
@@ -216,7 +216,7 @@ body
 	
 	
 	}
-	article
+	article, a
 	{
 	
 		font-family: Grand hotel;
