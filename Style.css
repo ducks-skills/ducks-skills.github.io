@@ -59,6 +59,27 @@ body
 			color:#c0392b;
 		}	
 	}
+	@-moz-keyframes om{
+		17%{
+			color: #f1c40f;
+		}
+		34%{
+			color:#f39c12;
+		}
+		51%{
+			color:#e67e22;
+		}
+		66%
+		{
+			color:#d35400;
+		}
+		84%{
+			color:#e74c3c;
+		}
+		100%{
+			color:#c0392b;
+		}	
+	}
 	@keyframes om{
 		17%{
 			color: #f1c40f;
