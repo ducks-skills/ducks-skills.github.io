@@ -33,6 +33,7 @@ body
 	{
 		animation: om 3s infinite alternate;
 		-webkit-animation: om 3s infinite alternate;
+		-moz-animation: om 3s infinite alternate;
 		color:#ecf0f1;
 		text-decoration:none;
 	}
