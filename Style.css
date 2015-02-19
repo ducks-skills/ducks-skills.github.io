@@ -3,10 +3,12 @@
 /*corps de la page*/
 body
 {
-	background-image: url("Images/low_contrast_linen.png");
+	
 	background-attachment: fixed;
 	margin-right: 50px;
 	margin-left: 50px;
+	background-image: url("https://raw.githubusercontent.com/ducks-skills/ducks-skills.github.io/master/Images/low_contrast_linen.png");
+		
 }
 
 #bloc_page
